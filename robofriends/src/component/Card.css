@@ -1,0 +1,21 @@
+.bg {
+    background-color: lightgreen;
+    display: inline-block;
+    border: 1em;
+    border-radius: 20px;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
+    backface-visibility: hidden;
+    box-shadow: 10px 10px 5px rgb(39, 3, 3);
+    
+    transition: all .2s ease-in-out;
+    
+}
+
+.bg:hover { 
+   transform: scale(1.1);
+}
+
+
+
